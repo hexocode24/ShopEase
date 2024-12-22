@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ShopEase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="glass-nav">
+        <nav>
+            <div class="logo gradient-text">ShopEase</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="hover-underline">Home</a></li>
+                <li><a href="products.html" class="hover-underline">Products</a></li>
+                <li><a href="about.html" class="hover-underline">About</a></li>
+                <li><a href="contact.html" class="hover-underline">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#search" class="icon-hover"><i class="fas fa-search"></i></a>
+                <a href="#cart" class="icon-hover"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#account" class="icon-hover"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero parallax-section">
+            <div class="contact-content" data-aos="fade-up">
+                <h1 class="gradient-text">Get in Touch</h1>
+                <p>We'd love to hear from you. Let us know how we can help!</p>
+            </div>
+        </section>
+
+        <section class="contact-info-cards">
+            <div class="info-card glass-effect" data-aos="fade-up">
+                <div class="icon-circle">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Visit Us</h3>
+                <p>123 Shopping Street</p>
+                <p>Retail City, RC 12345</p>
+                <p>United States</p>
+            </div>
+
+            <div class="info-card glass-effect" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-circle">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <h3>Call Us</h3>
+                <p>Toll Free: +1 (555) 123-4567</p>
+                <p>Support: +1 (555) 987-6543</p>
+                <p>Mon-Fri: 9:00 AM - 6:00 PM</p>
+            </div>
+
+            <div class="info-card glass-effect" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-circle">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email Us</h3>
+                <p>support@shopease.com</p>
+                <p>sales@shopease.com</p>
+                <p>Response within 24 hours</p>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <div class="contact-container glass-effect">
+                <div class="form-side" data-aos="fade-right">
+                    <h2 class="gradient-text">Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="map-side" data-aos="fade-left">
+                    <div class="map-container">
+                        <!-- Replace with your actual map embed code -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30596073366!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1647043276587!5m2!1sen!2s" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section" data-aos="fade-up">
+            <h2 class="gradient-text">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item glass-effect">
+                    <div class="faq-question">
+                        <h3>What are your shipping times?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically process and ship orders within 1-2 business days. Standard shipping takes 3-5 business days, while express shipping takes 1-2 business days.</p>
+                    </div>
+                </div>
+                <!-- Add more FAQ items as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ShopEase</h3>
+                <p>Your one-stop shop for all your needs</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Form submission handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your form submission logic here
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                faqItem.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html> 

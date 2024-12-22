@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ShopEase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="glass-nav">
+        <nav>
+            <div class="logo gradient-text">ShopEase</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="hover-underline">Home</a></li>
+                <li><a href="products.html" class="hover-underline">Products</a></li>
+                <li><a href="about.html" class="hover-underline">About</a></li>
+                <li><a href="contact.html" class="hover-underline">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#search" class="icon-hover"><i class="fas fa-search"></i></a>
+                <a href="#cart" class="icon-hover"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#account" class="icon-hover"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1 class="gradient-text">Our Products</h1>
+            <div class="filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Electronics</button>
+                <button class="filter-btn">Fashion</button>
+                <button class="filter-btn">Home & Living</button>
+            </div>
+        </section>
+
+        <section class="products-grid">
+            <!-- Electronics Category -->
+            <div class="product-card glass-effect" data-aos="fade-up" data-category="electronics">
+                <div class="product-badge">New</div>
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=300&q=80" alt="Wireless Headphones" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <h3>Wireless Headphones</h3>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.5)</span>
+                </div>
+                <p class="price">$99.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <!-- Fashion Category -->
+            <div class="product-card glass-effect" data-aos="fade-up" data-category="fashion">
+                <div class="product-badge">Sale</div>
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=300&q=80" alt="Designer Watch" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <h3>Designer Watch</h3>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(5.0)</span>
+                </div>
+                <p class="price"><span class="original-price">$199.99</span> $149.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <!-- Home & Living Category -->
+            <div class="product-card glass-effect" data-aos="fade-up" data-category="home & living">
+                <div class="product-badge">Popular</div>
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1507146426996-ef05306b995a?auto=format&fit=crop&w=300&q=80" alt="Smart LED Lamp" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <h3>Smart LED Lamp</h3>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(4.0)</span>
+                </div>
+                <p class="price">$79.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <!-- More Electronics -->
+            <div class="product-card glass-effect" data-aos="fade-up" data-category="electronics">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=300&q=80" alt="Wireless Earbuds" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <h3>Wireless Earbuds</h3>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(4.8)</span>
+                </div>
+                <p class="price">$129.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <!-- More Fashion -->
+            <div class="product-card glass-effect" data-aos="fade-up" data-category="fashion">
+                <div class="product-badge">Limited</div>
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=300&q=80" alt="Leather Wallet" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <h3>Leather Wallet</h3>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>(4.6)</span>
+                </div>
+                <p class="price">$49.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+
+            <!-- More Home & Living -->
+            <div class="product-card glass-effect" data-aos="fade-up" data-category="home & living">
+                <div class="product-image-container">
+                    <img src="https://images.unsplash.com/photo-1602928321679-560bb453f190?auto=format&fit=crop&w=300&q=80" alt="Aroma Diffuser" loading="lazy">
+                    <div class="product-overlay">
+                        <button class="quick-view-btn"><i class="fas fa-eye"></i></button>
+                        <button class="wishlist-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                </div>
+                <h3>Aroma Diffuser</h3>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(4.2)</span>
+                </div>
+                <p class="price">$39.99</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ShopEase</h3>
+                <p>Your one-stop shop for all your needs</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Product filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const products = document.querySelectorAll('.product-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const category = btn.textContent.toLowerCase();
+                
+                products.forEach(product => {
+                    if (category === 'all' || product.dataset.category === category) {
+                        product.style.display = 'block';
+                        product.style.animation = 'fadeIn 0.5s ease';
+                    } else {
+                        product.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Quick view and wishlist functionality
+        document.querySelectorAll('.quick-view-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                // Add your quick view logic here
+                alert('Quick view functionality coming soon!');
+            });
+        });
+
+        document.querySelectorAll('.wishlist-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                btn.classList.toggle('active');
+                const icon = btn.querySelector('i');
+                icon.classList.toggle('fas');
+                icon.classList.toggle('far');
+            });
+        });
+    </script>
+</body>
+</html>

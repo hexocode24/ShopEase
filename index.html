@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Your One-Stop Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="glass-nav">
+        <nav>
+            <div class="logo gradient-text">ShopEase</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="hover-underline">Home</a></li>
+                <li><a href="products.html" class="hover-underline">Products</a></li>
+                <li><a href="about.html" class="hover-underline">About</a></li>
+                <li><a href="contact.html" class="hover-underline">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#search" class="icon-hover"><i class="fas fa-search"></i></a>
+                <a href="#cart" class="icon-hover"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#account" class="icon-hover"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Carousel -->
+        <section class="hero-carousel">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1920&h=800&q=80" alt="Welcome to ShopEase - Modern Shopping Interior">
+                        <div class="hero-content" data-aos="fade-up">
+                            <h1 class="gradient-text">Discover Your Style</h1>
+                            <p>Shop the latest trends with confidence and ease</p>
+                            <button class="cta-button pulse">Explore Now</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1920&h=800&q=80" alt="Summer Collection - Beach Lifestyle">
+                        <div class="hero-content" data-aos="fade-up">
+                            <h1 class="gradient-text">Summer Collection</h1>
+                            <p>Get ready for summer with our latest collection</p>
+                            <button class="cta-button pulse">View Collection</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1920&h=800&q=80" alt="Special Offers - Shopping Experience">
+                        <div class="hero-content" data-aos="fade-up">
+                            <h1 class="gradient-text">Special Offers</h1>
+                            <p>Up to 50% off on selected items</p>
+                            <button class="cta-button pulse">Shop Deals</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section class="features" data-aos="fade-up">
+            <div class="feature-card glass-effect">
+                <i class="fas fa-shipping-fast gradient-icon"></i>
+                <h3>Free Shipping</h3>
+                <p>On orders over $50</p>
+            </div>
+            <div class="feature-card glass-effect">
+                <i class="fas fa-undo gradient-icon"></i>
+                <h3>Easy Returns</h3>
+                <p>30-day return policy</p>
+            </div>
+            <div class="feature-card glass-effect">
+                <i class="fas fa-headset gradient-icon"></i>
+                <h3>24/7 Support</h3>
+                <p>Always here to help</p>
+            </div>
+        </section>
+
+        <section class="trending" data-aos="fade-up">
+            <h2 class="gradient-text">Trending Products</h2>
+            <div class="product-carousel">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-card glass-effect">
+                                <div class="product-badge">New</div>
+                                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=200&q=80" alt="Premium Wireless Headphones">
+                                <h3>Premium Product</h3>
+                                <p class="price">$99.99</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card glass-effect">
+                                <div class="product-badge">Sale</div>
+                                <img src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?auto=format&fit=crop&w=200&q=80" alt="Exclusive Smartwatch">
+                                <h3>Exclusive Item</h3>
+                                <p class="price">$79.99</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-card glass-effect">
+                                <div class="product-badge">Hot</div>
+                                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=200&q=80" alt="Limited Edition Sneakers">
+                                <h3>Limited Edition</h3>
+                                <p class="price">$129.99</p>
+                                <button class="add-to-cart-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" data-aos="fade-up">
+            <h2 class="gradient-text">Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card glass-effect">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=400&q=80" alt="Fashion">
+                    <h3>Fashion</h3>
+                    <p>Latest Trends</p>
+                    <a href="#fashion" class="category-link">Explore →</a>
+                </div>
+                <div class="category-card glass-effect">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&q=80" alt="Electronics">
+                    <h3>Electronics</h3>
+                    <p>Smart Gadgets</p>
+                    <a href="#electronics" class="category-link">Explore →</a>
+                </div>
+                <div class="category-card glass-effect">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=80" alt="Sports">
+                    <h3>Sports</h3>
+                    <p>Active Lifestyle</p>
+                    <a href="#sports" class="category-link">Explore →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section" data-aos="fade-up">
+            <div class="newsletter-content glass-effect">
+                <h2 class="gradient-text">Stay Updated</h2>
+                <p>Subscribe to our newsletter for exclusive offers and updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="cta-button pulse">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="featured-brands" data-aos="fade-up">
+            <h2 class="gradient-text">Featured Brands</h2>
+            <div class="brand-slider">
+                <div class="brand-grid">
+                    <div class="brand-card glass-effect">
+                        <img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=120&h=120&q=80" alt="Nike">
+                    </div>
+                    <div class="brand-card glass-effect">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=120&h=120&q=80" alt="Adidas">
+                    </div>
+                    <div class="brand-card glass-effect">
+                        <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=120&h=120&q=80" alt="Puma">
+                    </div>
+                    <div class="brand-card glass-effect">
+                        <img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=120&h=120&q=80" alt="Under Armour">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" data-aos="fade-up">
+            <h2 class="gradient-text">What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card glass-effect">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Amazing products and excellent service! Will definitely shop here again."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=50&h=50&q=80" alt="Customer 1">
+                        <div class="author-info">
+                            <h4>John Doe</h4>
+                            <span>Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-effect">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Great selection of products and fast delivery. Very satisfied!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=50&h=50&q=80" alt="Customer 2">
+                        <div class="author-info">
+                            <h4>Jane Smith</h4>
+                            <span>Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-effect">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The customer service is outstanding. They went above and beyond!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=50&h=50&q=80" alt="Customer 3">
+                        <div class="author-info">
+                            <h4>Mike Johnson</h4>
+                            <span>Verified Buyer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-download" data-aos="fade-up">
+            <div class="app-content glass-effect">
+                <div class="app-text">
+                    <h2 class="gradient-text">Shop on the Go</h2>
+                    <p>Download our mobile app for a better shopping experience</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-apple"></i>
+                            <span>App Store</span>
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i>
+                            <span>Google Play</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="app-image">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=500&q=80" alt="Mobile App">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <div class="footer-section" data-aos="fade-right">
+                <h4 class="gradient-text">About Us</h4>
+                <p>ShopEase is your trusted online shopping destination.</p>
+            </div>
+            <div class="footer-section" data-aos="fade-up">
+                <h4 class="gradient-text">Quick Links</h4>
+                <ul>
+                    <li><a href="#privacy" class="hover-underline">Privacy Policy</a></li>
+                    <li><a href="#terms" class="hover-underline">Terms of Service</a></li>
+                    <li><a href="#shipping" class="hover-underline">Shipping Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section" data-aos="fade-left">
+                <h4 class="gradient-text">Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Initialize Hero Carousel
+        new Swiper('.hero-carousel .swiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        // Initialize Product Carousel
+        new Swiper('.product-carousel .swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+</body>
+</html>
